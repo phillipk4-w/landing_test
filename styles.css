@@ -1,0 +1,126 @@
+/* Styling for the top navagation bar */
+body{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+}
+#topnav{
+    margin: 0;
+    background-color: grey;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.col-2{
+    width: 66%;
+}
+.co-10{
+    width: 33%;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+#nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+#nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+/*Styling for the main body*/
+.mainDiv {
+    margin: 0;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.4)), url("./assets/clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    justify-content: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+  
+.mainDivText {
+    width: 300px;
+    text-align: center;
+    color: white;  
+  }
+.mainDivText h1 {
+    font-size: 35px;
+}
+.mainDivText p {
+    font-size: 20px;
+}
+.button {
+    background-color: green; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Section Layouts */
+.section {
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.section p {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Column Widths */
+.col-3 {
+    flex: 1;
+    max-width: 30%;
+}
+
+.col-6 {
+    flex: 2;
+    max-width: 60%;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+  
